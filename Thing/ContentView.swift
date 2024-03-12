@@ -1,24 +1,22 @@
-//
-//  ContentView.swift
-//  Thing
-//
-//  Created by Adekunle Somade on 3/10/24.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject private var userData = UserData()
+    @State private var userID: String?
+
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            if let userID = userID {
+                UserDataView(userData: userData)
+            } else {
+                UserIDInputView { enteredUserID in
+                    userID = enteredUserID
+                    UserManager.shared.saveUserID(enteredUserID)
+                }
+            }
         }
-        .padding()
+        .onAppear {
+            userID = UserManager.shared.fetchUserID()
+        }
     }
-}
-
-#Preview {
-    ContentView()
 }

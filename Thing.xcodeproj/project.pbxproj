@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1716A3BE2B9F7B42008FFCCC /* HealthDataViewControllerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1716A3BD2B9F7B42008FFCCC /* HealthDataViewControllerWrapper.swift */; };
+		1716A3C22B9F96D8008FFCCC /* LocationDataControllerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1716A3C12B9F96D8008FFCCC /* LocationDataControllerWrapper.swift */; };
+		1716A3C42B9F996C008FFCCC /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1716A3C32B9F996C008FFCCC /* UserData.swift */; };
+		1716A3C62B9FA76E008FFCCC /* HealthData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1716A3C52B9FA76E008FFCCC /* HealthData.swift */; };
+		1716A3CA2B9FBD3A008FFCCC /* LocationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1716A3C92B9FBD3A008FFCCC /* LocationData.swift */; };
+		1716A3CE2B9FC032008FFCCC /* UserIDInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1716A3CD2B9FC032008FFCCC /* UserIDInputView.swift */; };
+		1716A3D02B9FDC64008FFCCC /* UserIDEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1716A3CF2B9FDC64008FFCCC /* UserIDEntryView.swift */; };
+		1716A3D22B9FDE08008FFCCC /* UserDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1716A3D12B9FDE08008FFCCC /* UserDataView.swift */; };
+		1716A3D42BA0CBC5008FFCCC /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1716A3D32BA0CBC5008FFCCC /* UserDefaults.swift */; };
+		1716A3D62BA0CBEC008FFCCC /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1716A3D52BA0CBEC008FFCCC /* UserManager.swift */; };
 		177C312A2B9E23B900CAA177 /* ThingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177C31292B9E23B900CAA177 /* ThingApp.swift */; };
 		177C312C2B9E23B900CAA177 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177C312B2B9E23B900CAA177 /* ContentView.swift */; };
 		177C312E2B9E23BA00CAA177 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 177C312D2B9E23BA00CAA177 /* Assets.xcassets */; };
@@ -34,6 +44,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1716A3BA2B9F74D2008FFCCC /* Thing.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Thing.entitlements; sourceTree = "<group>"; };
+		1716A3BD2B9F7B42008FFCCC /* HealthDataViewControllerWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthDataViewControllerWrapper.swift; sourceTree = "<group>"; };
+		1716A3C12B9F96D8008FFCCC /* LocationDataControllerWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDataControllerWrapper.swift; sourceTree = "<group>"; };
+		1716A3C32B9F996C008FFCCC /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		1716A3C52B9FA76E008FFCCC /* HealthData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthData.swift; sourceTree = "<group>"; };
+		1716A3C92B9FBD3A008FFCCC /* LocationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationData.swift; sourceTree = "<group>"; };
+		1716A3CD2B9FC032008FFCCC /* UserIDInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserIDInputView.swift; sourceTree = "<group>"; };
+		1716A3CF2B9FDC64008FFCCC /* UserIDEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserIDEntryView.swift; sourceTree = "<group>"; };
+		1716A3D12B9FDE08008FFCCC /* UserDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataView.swift; sourceTree = "<group>"; };
+		1716A3D32BA0CBC5008FFCCC /* UserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		1716A3D52BA0CBEC008FFCCC /* UserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 		177C31262B9E23B900CAA177 /* Thing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		177C31292B9E23B900CAA177 /* ThingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThingApp.swift; sourceTree = "<group>"; };
 		177C312B2B9E23B900CAA177 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -94,8 +115,19 @@
 		177C31282B9E23B900CAA177 /* Thing */ = {
 			isa = PBXGroup;
 			children = (
+				1716A3BA2B9F74D2008FFCCC /* Thing.entitlements */,
 				177C31292B9E23B900CAA177 /* ThingApp.swift */,
 				177C312B2B9E23B900CAA177 /* ContentView.swift */,
+				1716A3CF2B9FDC64008FFCCC /* UserIDEntryView.swift */,
+				1716A3CD2B9FC032008FFCCC /* UserIDInputView.swift */,
+				1716A3BD2B9F7B42008FFCCC /* HealthDataViewControllerWrapper.swift */,
+				1716A3C52B9FA76E008FFCCC /* HealthData.swift */,
+				1716A3D52BA0CBEC008FFCCC /* UserManager.swift */,
+				1716A3C92B9FBD3A008FFCCC /* LocationData.swift */,
+				1716A3C32B9F996C008FFCCC /* UserData.swift */,
+				1716A3D32BA0CBC5008FFCCC /* UserDefaults.swift */,
+				1716A3D12B9FDE08008FFCCC /* UserDataView.swift */,
+				1716A3C12B9F96D8008FFCCC /* LocationDataControllerWrapper.swift */,
 				177C312D2B9E23BA00CAA177 /* Assets.xcassets */,
 				177C312F2B9E23BA00CAA177 /* Preview Content */,
 			);
@@ -257,8 +289,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1716A3C22B9F96D8008FFCCC /* LocationDataControllerWrapper.swift in Sources */,
+				1716A3BE2B9F7B42008FFCCC /* HealthDataViewControllerWrapper.swift in Sources */,
 				177C312C2B9E23B900CAA177 /* ContentView.swift in Sources */,
+				1716A3D42BA0CBC5008FFCCC /* UserDefaults.swift in Sources */,
+				1716A3CE2B9FC032008FFCCC /* UserIDInputView.swift in Sources */,
+				1716A3C62B9FA76E008FFCCC /* HealthData.swift in Sources */,
+				1716A3D62BA0CBEC008FFCCC /* UserManager.swift in Sources */,
+				1716A3CA2B9FBD3A008FFCCC /* LocationData.swift in Sources */,
+				1716A3D22B9FDE08008FFCCC /* UserDataView.swift in Sources */,
+				1716A3C42B9F996C008FFCCC /* UserData.swift in Sources */,
 				177C312A2B9E23B900CAA177 /* ThingApp.swift in Sources */,
+				1716A3D02B9FDC64008FFCCC /* UserIDEntryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,12 +461,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Thing/Thing.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Thing/Preview Content\"";
 				DEVELOPMENT_TEAM = SRV69WG7C2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app uses your step count to help you track your fitness progress.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires your location to provide navigation directions";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -448,12 +493,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Thing/Thing.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Thing/Preview Content\"";
 				DEVELOPMENT_TEAM = SRV69WG7C2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app uses your step count to help you track your fitness progress.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires your location to provide navigation directions";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
